@@ -2,7 +2,6 @@ import serial, time
 import matplotlib.pyplot as plt
 import matplotlib.animation
 import numpy as np
-import random
 
 arduino = serial.Serial('COM3', 9600) #Creamos objeto serial llamado Arduino y establecemos los parámetros de la conexión
 
